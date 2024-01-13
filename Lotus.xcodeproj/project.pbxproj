@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5558A0562B5300840053577E /* Lotus_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558A0552B5300840053577E /* Lotus_iOSApp.swift */; };
+		5558A0582B5300840053577E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558A0572B5300840053577E /* ContentView.swift */; };
+		5558A05A2B5300840053577E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558A0592B5300840053577E /* Item.swift */; };
+		5558A05C2B5300860053577E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5558A05B2B5300860053577E /* Assets.xcassets */; };
+		5558A05F2B5300860053577E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5558A05E2B5300860053577E /* Preview Assets.xcassets */; };
+		5558A0692B5300860053577E /* Lotus_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558A0682B5300860053577E /* Lotus_iOSTests.swift */; };
+		5558A0732B5300860053577E /* Lotus_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558A0722B5300860053577E /* Lotus_iOSUITests.swift */; };
+		5558A0752B5300860053577E /* Lotus_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558A0742B5300860053577E /* Lotus_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5558A0652B5300860053577E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5558A04A2B5300840053577E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5558A0512B5300840053577E;
+			remoteInfo = "Lotus iOS";
+		};
+		5558A06F2B5300860053577E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5558A04A2B5300840053577E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5558A0512B5300840053577E;
+			remoteInfo = "Lotus iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5558A0522B5300840053577E /* Lotus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lotus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5558A0552B5300840053577E /* Lotus_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_iOSApp.swift; sourceTree = "<group>"; };
+		5558A0572B5300840053577E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5558A0592B5300840053577E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5558A05B2B5300860053577E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5558A05E2B5300860053577E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5558A0642B5300860053577E /* LotusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5558A0682B5300860053577E /* Lotus_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_iOSTests.swift; sourceTree = "<group>"; };
+		5558A06E2B5300860053577E /* LotusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5558A0722B5300860053577E /* Lotus_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_iOSUITests.swift; sourceTree = "<group>"; };
+		5558A0742B5300860053577E /* Lotus_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5558A04F2B5300840053577E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558A0612B5300860053577E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558A06B2B5300860053577E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5558A0492B5300840053577E = {
+			isa = PBXGroup;
+			children = (
+				5558A0542B5300840053577E /* Lotus iOS */,
+				5558A0672B5300860053577E /* Lotus iOSTests */,
+				5558A0712B5300860053577E /* Lotus iOSUITests */,
+				5558A0532B5300840053577E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5558A0532B5300840053577E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5558A0522B5300840053577E /* Lotus.app */,
+				5558A0642B5300860053577E /* LotusTests.xctest */,
+				5558A06E2B5300860053577E /* LotusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5558A0542B5300840053577E /* Lotus iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5558A0552B5300840053577E /* Lotus_iOSApp.swift */,
+				5558A0572B5300840053577E /* ContentView.swift */,
+				5558A0592B5300840053577E /* Item.swift */,
+				5558A05B2B5300860053577E /* Assets.xcassets */,
+				5558A05D2B5300860053577E /* Preview Content */,
+			);
+			path = "Lotus iOS";
+			sourceTree = "<group>";
+		};
+		5558A05D2B5300860053577E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5558A05E2B5300860053577E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5558A0672B5300860053577E /* Lotus iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5558A0682B5300860053577E /* Lotus_iOSTests.swift */,
+			);
+			path = "Lotus iOSTests";
+			sourceTree = "<group>";
+		};
+		5558A0712B5300860053577E /* Lotus iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5558A0722B5300860053577E /* Lotus_iOSUITests.swift */,
+				5558A0742B5300860053577E /* Lotus_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Lotus iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5558A0512B5300840053577E /* Lotus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5558A0782B5300860053577E /* Build configuration list for PBXNativeTarget "Lotus" */;
+			buildPhases = (
+				5558A04E2B5300840053577E /* Sources */,
+				5558A04F2B5300840053577E /* Frameworks */,
+				5558A0502B5300840053577E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lotus;
+			productName = "Lotus iOS";
+			productReference = 5558A0522B5300840053577E /* Lotus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5558A0632B5300860053577E /* LotusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5558A07B2B5300860053577E /* Build configuration list for PBXNativeTarget "LotusTests" */;
+			buildPhases = (
+				5558A0602B5300860053577E /* Sources */,
+				5558A0612B5300860053577E /* Frameworks */,
+				5558A0622B5300860053577E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5558A0662B5300860053577E /* PBXTargetDependency */,
+			);
+			name = LotusTests;
+			productName = "Lotus iOSTests";
+			productReference = 5558A0642B5300860053577E /* LotusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5558A06D2B5300860053577E /* LotusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5558A07E2B5300860053577E /* Build configuration list for PBXNativeTarget "LotusUITests" */;
+			buildPhases = (
+				5558A06A2B5300860053577E /* Sources */,
+				5558A06B2B5300860053577E /* Frameworks */,
+				5558A06C2B5300860053577E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5558A0702B5300860053577E /* PBXTargetDependency */,
+			);
+			name = LotusUITests;
+			productName = "Lotus iOSUITests";
+			productReference = 5558A06E2B5300860053577E /* LotusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5558A04A2B5300840053577E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5558A0512B5300840053577E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5558A0632B5300860053577E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5558A0512B5300840053577E;
+					};
+					5558A06D2B5300860053577E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5558A0512B5300840053577E;
+					};
+				};
+			};
+			buildConfigurationList = 5558A04D2B5300840053577E /* Build configuration list for PBXProject "Lotus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5558A0492B5300840053577E;
+			productRefGroup = 5558A0532B5300840053577E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5558A0512B5300840053577E /* Lotus */,
+				5558A0632B5300860053577E /* LotusTests */,
+				5558A06D2B5300860053577E /* LotusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5558A0502B5300840053577E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5558A05F2B5300860053577E /* Preview Assets.xcassets in Resources */,
+				5558A05C2B5300860053577E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558A0622B5300860053577E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558A06C2B5300860053577E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5558A04E2B5300840053577E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5558A0582B5300840053577E /* ContentView.swift in Sources */,
+				5558A05A2B5300840053577E /* Item.swift in Sources */,
+				5558A0562B5300840053577E /* Lotus_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558A0602B5300860053577E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5558A0692B5300860053577E /* Lotus_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558A06A2B5300860053577E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5558A0752B5300860053577E /* Lotus_iOSUITestsLaunchTests.swift in Sources */,
+				5558A0732B5300860053577E /* Lotus_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5558A0662B5300860053577E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5558A0512B5300840053577E /* Lotus */;
+			targetProxy = 5558A0652B5300860053577E /* PBXContainerItemProxy */;
+		};
+		5558A0702B5300860053577E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5558A0512B5300840053577E /* Lotus */;
+			targetProxy = 5558A06F2B5300860053577E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5558A0762B5300860053577E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5558A0772B5300860053577E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5558A0792B5300860053577E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lotus iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elvic.Lotus-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5558A07A2B5300860053577E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lotus iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elvic.Lotus-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5558A07C2B5300860053577E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elvic.Lotus-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lotus";
+			};
+			name = Debug;
+		};
+		5558A07D2B5300860053577E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elvic.Lotus-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lotus";
+			};
+			name = Release;
+		};
+		5558A07F2B5300860053577E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elvic.Lotus-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lotus iOS";
+			};
+			name = Debug;
+		};
+		5558A0802B5300860053577E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elvic.Lotus-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lotus iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5558A04D2B5300840053577E /* Build configuration list for PBXProject "Lotus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5558A0762B5300860053577E /* Debug */,
+				5558A0772B5300860053577E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5558A0782B5300860053577E /* Build configuration list for PBXNativeTarget "Lotus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5558A0792B5300860053577E /* Debug */,
+				5558A07A2B5300860053577E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5558A07B2B5300860053577E /* Build configuration list for PBXNativeTarget "LotusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5558A07C2B5300860053577E /* Debug */,
+				5558A07D2B5300860053577E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5558A07E2B5300860053577E /* Build configuration list for PBXNativeTarget "LotusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5558A07F2B5300860053577E /* Debug */,
+				5558A0802B5300860053577E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5558A04A2B5300840053577E /* Project object */;
+}
