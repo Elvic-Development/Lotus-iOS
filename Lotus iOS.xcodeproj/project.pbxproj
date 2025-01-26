@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		55FE62412D46FDED006323A7 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 55FE62402D46FDDE006323A7 /* LICENSE.md */; };
+		55FE62432D46FE08006323A7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55FE62422D46FDFF006323A7 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		55FE62232D46FA69006323A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		55FE620E2D46FA65006323A7 /* Lotus iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lotus iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FE62222D46FA69006323A7 /* Lotus iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lotus iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FE622C2D46FA69006323A7 /* Lotus iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lotus iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FE62402D46FDDE006323A7 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		55FE62422D46FDFF006323A7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +95,8 @@
 		55FE62052D46FA65006323A7 = {
 			isa = PBXGroup;
 			children = (
+				55FE62422D46FDFF006323A7 /* README.md */,
+				55FE62402D46FDDE006323A7 /* LICENSE.md */,
 				55FE62102D46FA65006323A7 /* Lotus iOS */,
 				55FE62252D46FA69006323A7 /* Lotus iOSTests */,
 				55FE622F2D46FA69006323A7 /* Lotus iOSUITests */,
@@ -225,6 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FE62412D46FDED006323A7 /* LICENSE.md in Resources */,
+				55FE62432D46FE08006323A7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
